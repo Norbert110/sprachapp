@@ -1,0 +1,25 @@
+# Sprach-App
+
+A small German word board for children who learn to communicate with pictures and signs: tap a word, see its
+picture, hear it and watch its sign-language video. The words are sorted into groups, and an adult can change
+words, pictures, recordings and groups on the device.
+
+This repository holds the built website only: the page, the service worker that keeps it for use without an
+internet connection, and the sign videos of the bundled words.
+
+## Use on an iPad
+
+Open https://norbert110.github.io/sprachapp/ in Safari, tap the share button, choose "Zum Home-Bildschirm" and
+open the app from its new icon. The app then copies the sign videos to the device (about 300 MB) and works
+without an internet connection afterwards.
+
+## Content and licences
+
+- Pictograms: the pictographic symbols are the property of the Government of Aragón and were created by
+  Sergio Palao for ARASAAC (https://arasaac.org), which distributes them under the Creative Commons licence
+  BY-NC-SA (terms of use: https://arasaac.org/terms-of-use). They are embedded in the page, scaled down and
+  converted to WebP.
+- Sign videos (folder `signs`): from the sign dictionary of https://gebaerdenlernen.de, licence
+  CC BY-NC-SA 3.0 DE (https://creativecommons.org/licenses/by-nc-sa/3.0/de/). The video files are unchanged.
+
+Both licences allow non-commercial use only, with attribution and under the same conditions.
