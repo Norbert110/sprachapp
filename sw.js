@@ -6,7 +6,7 @@
 // tools/build.js writes a version below that changes with every changed build. The browser then installs this
 // file again, which fetches the new app. The open app keeps running; the new one shows on the next start.
 
-const VERSION = 'e41c3fba189a';
+const VERSION = 'a18a53330737';
 const SHELL_CACHE = 'speech-app-shell-' + VERSION;
 const VIDEO_CACHE = 'speech-app-signs-v1';   // the same name is used in app.js
 const SHELL_FILES = ['./', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
